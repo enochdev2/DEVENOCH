@@ -37,14 +37,14 @@ const Header = () => {
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
         <a className="flex justify-center items-center  space-x-3 w-[12rem] xl:mr-8" href="#hero">
-          <img src={DevNoch} width={60} height={30} alt="Brainwave" />
+          <img src={DevNoch} width={60} height={30} alt="devenoch" />
           <p>DEVENOCH TECH</p>
         </a>
 
         <nav
           className={`${
             openNavigation ? "flex" : "hidden"
-          } fixed top-[5rem] left-0 right-0 bottom-0 bg-n-8 lg:static lg:flex lg:mx-auto lg:bg-transparent`}
+          } fixed top-[5rem] left-0 right-0 bottom-0 bg-n-8  lg:static lg:flex lg:mx-auto lg:bg-transparent`}
         >
           <div className="relative z-2 flex flex-col items-center justify-center m-auto lg:flex-row">
             {navigation.map((item) => (
@@ -58,7 +58,7 @@ const Header = () => {
                   item.url === pathname.hash
                     ? "z-2 lg:text-n-1"
                     : "lg:text-n-1/50"
-                } lg:leading-5 lg:hover:text-n-1 xl:px-12`}
+                } lg:leading-5 lg:hover:text-n-1 xl:px-5`}
               >
                 {item.title}
               </a>
@@ -68,14 +68,14 @@ const Header = () => {
           <HamburgerMenu />
         </nav>
 
-        <a
+        {/* <a
           href="#signup"
           className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
         >
           New account
-        </a>
-        <Button className="hidden lg:flex" href="#login">
-          Sign in
+        </a> */}
+        <Button className="hidden lg:flex" href= "mailto:enochpromise@gmail.com">
+          Contact Us
         </Button>
 
         <Button

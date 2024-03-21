@@ -33,29 +33,39 @@ import {
   sliders04,
   telegram,
   twitter,
-  yourlogo,
 } from "../assets";
 
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "Home",
+    url: "#hero",
   },
+
+  // {
+  //   id: "1",
+  //   title: "Pricing",
+  //   url: "#pricing",
+  // },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "Services",
+    url: "#benefits",
   },
+  // {
+  //   id: "2",
+  //   title: "Contact Us",
+  //   url: "#contact-us",
+  // },
   {
-    id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    id: "3",
+    title: "Portfolio",
+    url: "https://enochpromise.vercel.app",
   },
   {
     id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
+    title: "About Us",
+    url: "#about",
   },
   {
     id: "4",
@@ -75,7 +85,7 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+// export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
   "Photo generating",
@@ -208,7 +218,7 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
+    title: "Fornt-End Development",
     description: "AI chatbot, personalized recommendations",
     price: "0",
     features: [
@@ -219,7 +229,7 @@ export const pricing = [
   },
   {
     id: "1",
-    title: "Premium",
+    title: "Full-Stack Development",
     description: "Advanced AI chatbot, priority support, analytics dashboard",
     price: "9.99",
     features: [
@@ -230,7 +240,7 @@ export const pricing = [
   },
   {
     id: "2",
-    title: "Enterprise",
+    title: "Smart Contract",
     description: "Custom AI chatbot, advanced analytics, dedicated account",
     price: null,
     features: [
@@ -276,22 +286,22 @@ export const benefits = [
     imageUrl: benefitImage2,
     light: true,
   },
-  {
-    id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
-  },
-  {
-    id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
-  },
+  // {
+  //   id: "4",
+  //   title: "Ask anything",
+  //   text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+  //   backgroundUrl: "./src/assets/benefits/card-5.svg",
+  //   iconUrl: benefitIcon1,
+  //   imageUrl: benefitImage2,
+  // },
+  // {
+  //   id: "5",
+  //   title: "Improve everyday",
+  //   text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+  //   backgroundUrl: "./src/assets/benefits/card-6.svg",
+  //   iconUrl: benefitIcon2,
+  //   imageUrl: benefitImage2,
+  // },
 ];
 
 export const socials = [
